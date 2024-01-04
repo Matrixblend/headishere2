@@ -2059,6 +2059,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/dm-sans/-/dm-sans-4.5.9.tgz#a48f9c815728ebb47e1c58e5176a9d4aa6cb25ea"
   integrity sha512-qaFvSBJhoeley1A9myRUUuHbm9sz7ADyC2WodezBzdFSPs2VD/p5WPPwtpVE8b1SglQrOPAnxA7s3fH5zOtiMQ==
 
+"@fontsource/goldman@^5.0.18":
+  version "5.0.18"
+  resolved "https://registry.yarnpkg.com/@fontsource/goldman/-/goldman-5.0.18.tgz#3c5fe76605b28fc199c83297687f14a14655a3f9"
+  integrity sha512-5192fDcK70xV8d+s8dbZdjrCGDg/4NDv0S8dlHicHk50SbLuASq2Vf1VrB2/JLmFgB8UG/tqcyc4hh1Vrnra9A==
+
 "@gatsbyjs/parcel-namer-relative-to-cwd@^2.13.0":
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/parcel-namer-relative-to-cwd/-/parcel-namer-relative-to-cwd-2.13.0.tgz#558412e8ab0a692b56b0948fd80fea251053919c"

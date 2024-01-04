@@ -28,7 +28,7 @@ Object.assign(
 
 const fontSizes = {
   0: "12px",
-  1: "14px",
+  1: "28px",
   2: "16px",
   3: "18px",
   4: "24px",
@@ -38,7 +38,7 @@ const fontSizes = {
 }
 
 const fontWeights = {
-  normal: "400",
+  normal: "600",
   medium: "500",
   semibold: "600",
   bold: "700",

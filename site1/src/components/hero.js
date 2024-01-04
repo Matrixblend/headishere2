@@ -21,17 +21,20 @@ export default function Hero(props) {
       <Container>
         <Flex gap={4} variant="responsive">
           <Box width="half">
+         
 
-          <h1>{props.video.url}</h1>
             {props.video ? (
               // Assuming props.video has a src attribute for the video source
              
-              <Video poster={props.video.poster}
+              <Video 
               autoPlay
+             
               muted
               loop
-              sources={props.video}/>
+              source={"https://storage.googleapis.com/stateless-headishere-com/2023/05/Fly-Canvas.mp4"}/>
             ) : props.image ? (
+
+              
               <GatsbyImage
                 alt={props.image.alt}
                 image={getImage(props.image.gatsbyImageData)}
@@ -43,6 +46,7 @@ export default function Hero(props) {
               {props.kicker && <Kicker>{props.kicker}</Kicker>}
               {props.h1}
             </Heading>
+       
             <Subhead as="h2">{props.subhead}</Subhead>
             <Text as="p">{props.text}</Text>
             <ButtonList links={props.links} />

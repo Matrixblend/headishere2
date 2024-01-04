@@ -150,7 +150,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
 
     interface HomepageVideo implements Node {
       id: ID!
-      url: String @homepageVideo 
+      url: String @homepageVideo(from:"url") 
       title: String
       poster: String
     }

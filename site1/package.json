@@ -18,6 +18,7 @@
     "@contentful/rich-text-html-renderer": "^15.11.1",
     "@fontsource/dm-mono": "^4.5.9",
     "@fontsource/dm-sans": "^4.5.8",
+    "@fontsource/goldman": "^5.0.18",
     "@thirdweb-dev/react": "^4.2.1",
     "@thirdweb-dev/sdk": "^4.0.24",
     "@vanilla-extract/babel-plugin": "^1.2.0",
