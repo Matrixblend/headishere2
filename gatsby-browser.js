@@ -1,0 +1,5 @@
+import "@fontsource/goldman"
+// import "@fontsource/goldman/500.css"
+// import "@fontsource/goldman/700.css"
+import "@fontsource/dm-mono"
+import "@fontsource/dm-mono/500.css"
