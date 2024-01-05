@@ -296,7 +296,7 @@ export const text: Record<TextVariants, string> = styleVariants({
       letterSpacing: theme.letterSpacings.tight,
       "@media": {
         [media.small]: {
-          fontSize: theme.fontSizes[7],
+          fontSize: theme.fontSizes[6],
         },
       },
     },
@@ -306,7 +306,7 @@ export const text: Record<TextVariants, string> = styleVariants({
     {
       marginBottom: theme.space[3],
       fontFamily: theme.fonts.heading,
-      fontSize: theme.fontSizes[5],
+      fontSize: theme.fontSizes[3],
       fontWeight: theme.fontWeights.extrabold,
       lineHeight: theme.lineHeights.tight,
       letterSpacing: theme.letterSpacings.tight,
@@ -474,7 +474,7 @@ const button = style({
   borderRadius: theme.radii.button,
 })
 
-export type ButtonVariants = "primary" | "reversed" | "link" | "linkReversed"
+export type ButtonVariants = "primary" | "reversed" | "link" | "linkReversed" | "subprime"
 
 export const buttons: Record<ButtonVariants, string> = styleVariants({
   primary: [
@@ -482,6 +482,19 @@ export const buttons: Record<ButtonVariants, string> = styleVariants({
     {
       color: theme.colors.background,
       backgroundColor: theme.colors.primary,
+      ":hover": {
+        backgroundColor: theme.colors.active,
+      },
+      ":focus": {
+        backgroundColor: theme.colors.active,
+      },
+    },
+  ],
+  subprime: [
+    button,
+    {
+      color: theme.colors.background,
+      backgroundColor: theme.colors.subprime,
       ":hover": {
         backgroundColor: theme.colors.active,
       },

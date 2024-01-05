@@ -77,7 +77,7 @@ export default function Header() {
         <Flex variant="spaceBetween">
           <NavLink to="/">
             <VisuallyHidden>Home</VisuallyHidden>
-            <BrandLogo />
+            {/* <BrandLogo /> */}
           </NavLink>
           <nav>
             <FlexList gap={4}>
@@ -116,7 +116,7 @@ export default function Header() {
             <Space />
             <div>
               {cta && (
-                <Button to={cta.href} variant={isOpen ? "reversed" : "primary"}>
+                <Button to={cta.href} variant={isOpen ? "reversed" : "subprime"}>
                   {cta.text}
                 </Button>
               )}

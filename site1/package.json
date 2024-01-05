@@ -43,7 +43,8 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-feather": "^2.0.9",
-    "sharp": "^0.32.6"
+    "sharp": "^0.32.6",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "chalk": "4",
@@ -55,5 +56,12 @@
     "lint-staged": "^12.3.5",
     "prettier": "2.5.1",
     "yargs-parser": "^21.0.0"
-  }
+  },
+  "description": "<a href=\"https://www.gatsbyjs.com\">   <img alt=\"Gatsby\" src=\"https://www.gatsbyjs.com/Gatsby-Monogram.svg\" width=\"60\" /> </a>",
+  "main": "gatsby-browser.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "license": "ISC"
 }

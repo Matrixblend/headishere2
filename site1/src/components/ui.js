@@ -159,7 +159,7 @@ export function NavButtonLink({ ...props }) {
   return <Base as="button" cx={[styles.navButtonlink]} {...props} />
 }
 
-export function Button({ variant = "primary", ...props }) {
+export function Button({ variant = "subprime", ...props }) {
   return <Base as={Link} cx={[styles.buttons[variant]]} {...props} />
 }
 
@@ -168,7 +168,7 @@ export function ButtonList({ links = [], reversed = false, ...props }) {
     if (reversed) {
       return i === 0 ? "reversed" : "linkReversed"
     }
-    return i === 0 ? "primary" : "link"
+    return i === 0 ? "subprime" : "link"
   }
   return (
     <FlexList marginY={4} {...props}>
